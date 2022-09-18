@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: beige;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+.flex.row {
+    flex-direction: row;
+}
+.flex.column {
+    flex-direction: column;
+}
+.flex.align-items-center {
+    align-items: center;
+}
+
+.flex.justify-content-center {
+    justify-content: center;
+}

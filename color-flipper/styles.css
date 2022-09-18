@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.wall {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: background-color linear;
+}
+
+.photo-img-container {
+    position: absolute;
+    background: url('./mountains.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 215px;
+    height: 300px;
+    border: 15px solid white;
+    top: 100px;
+    left: 100px;
+}
+
+.photo-img-container img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+.floor-img-container {
+    position: absolute;
+    width: 250px;
+    height: 700px;
+    bottom: 0;
+    right: 50px;
+    background: url('./lamp.png');
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: -230px 70px;
+}
